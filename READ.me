@@ -1,0 +1,24 @@
+JS Topics
+1. Data structures, (done)template literals 
+2. (done)EC, Variable Environment, (done)Functions , (done)var, (done)const, (done)let
+3. (done)Loops, (done)array methods, object methods
+4. V8 engine & event loop
+5. Browser Working, 
+6. Closure & this
+7. setInterval, setTimeout, setImmediate
+8. Promise && promise methods
+8. async await, try catch call back hell
+9. Interview question
+
+
+// Promise problem
+async function check(){
+    await Promise.resolve(console.log(1));
+    await Promise.resolve(console.log(undefined));
+    console.log(2);
+
+}
+
+console.log(3);
+check();
+console.log(4)
